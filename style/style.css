@@ -1,4 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 *{
     margin: 0px;
     padding: 0px;
+    font-family: "Merriweather", serif;
 }
+.banner{
+    margin: 40px 140px 0 140px;
+}
+.banner-detiles{
+    width: 1320px;
+    height: 423px;
+    color: white;
+    background: 
+    linear-gradient(rgba(7, 2, 17, 1), rgba(7, 2, 17, 0)), 
+    url('../images/banner.png');
+    border-radius: 10px;
+    padding-top: 177px;
+    text-align: center;
+    background-size: cover;
+}
+.banner-detiles h4{
+    font-size: 32px;
+    font-weight: 400;
+}
+.banner-detiles h2{
+    font-size: 72px;
+    line-height: 92px;
+    padding-top: 12px;
+    padding-bottom: 177px;
+}
+
+/* discound section */
+.discount{
+    margin: 120px 399px 120px 399px;
+}
+.discount-ditels{
+    text-align: center;
+}
+.discount-ditels h1{
+    font-size: 88px;
+    font-weight: bold;
+    color: #FF0000;
+    font-family: "Inter", sans-serif;
+}
+.discount-ditels h5{
+    color: #FF0000;
+    font-size: 24px;
+    margin: 48px 0 16px 0;
+    font-family: "Inter", sans-serif;
+}
+.discount-ditels h3{
+    color: black;
+    font-size: 48px;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+}
+.discount img{
+    width: 802px;
+    margin-top: 48px;
+}
+/* party section */
+.party-ditels{
+    background:linear-gradient(rgba(7, 2, 17, 1), rgba(7, 2, 17, 0)), url(../images/Vectorrr.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    padding: 68px 138px;
+    margin: 0 140px;
+    border-radius: 10px;
+    margin-bottom: 120px;
+}
+.party-ditels h1{
+    font-size: 64px;
+    line-height: 88px;
+    color: white;
+    font-family: "Merriweather", serif;
+    padding-top: 51px;
+}
+.party-ditels p{
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-top: 24px;
+    margin-bottom: 48px;
+    opacity: .6;
+}
+.party-ditels-data button{
+    background: none;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Merriweather", serif;
+    padding: 15px;
+    color: white;
+}
+/* park hotel */
+.park-hotel{
+    margin: 120px 140px;
+    background: linear-gradient(rgba(255, 2, 2, 0.288), rgba(255, 0, 0, 0)) ;
+    border-radius: 13px;
+    align-items: center;
+    margin-bottom: 134px;
+}
+.park-hotel-ditels{
+    padding: 100px 386px 110px 385px;
+    text-align: center;
+}
+.park-hotel-ditels h3{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 50px;
+    font-family: "Inter", sans-serif;
+}
+.park-color{
+    color: red;
+}
+.park-hotel-ditels button{
+    margin: 48px 0 110px 0;
+    padding: 16px 32px;
+    background-color: #FF0000;
+    font-size: 16px;
+    border: none;
+    color: white;
+}
+
+/* comming soon stard */
+.comming-soon{
+    display: flex;
+    margin: 0 140px;
+    justify-content: space-between;
+    margin-bottom: 140px;
+}
+.comming-soon-continer{
+    text-align: left;
+}
+.comming-soon-continer h1{
+    margin-top: 26px;
+    color: red;
+}
+.comming-soon-continer h2{
+    margin: 18px 0 22px 0;
+}
+.comming-soon-continer p{
+    line-height: 32px;
+    color: rgba(0, 0, 0, 0.493);
+}
+.img-child{
+    margin-right: 70px;
+    margin-left: 110px;
+    border-radius: 50%;
+    border: 15px solid red;
+
+}
+.circle{
+    border-radius: 50%;
+    border: 15px solid white;
+}
+.img-texts p{
+    margin-top: 16px;
+    margin-bottom: 43px;
+}
+.img-texts h1{
+    font-size: 48px;
+    font-weight: 900;
+}
+/* comming soon End */
+/* holyday */
+.holyday{
+    margin: 0 140px;
+}
+.img-bng{
+    background-image: url(../images/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position:bottom;
+}
+.holyday-continer{
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+.holyday-continer h1{
+    font-size: 24px;
+    font-weight: 600;
+}
+.holyday-continer h2{
+    font-size: 72px;
+    font-weight: 1200;
+}
+.holyday-continer h2 span{
+    color: red;
+}
+.holyday-continer p{
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.466);
+}
+.holyday-continer-img-bng-2{
+    margin-bottom: 280px;
+    margin-right: 20px;
+}
+/* card  section */
+.card{
+    margin: 0 140px;
+    align-items: center;
+}
+.card-ditels{
+    margin-bottom: 24px;
+    font-size: 48px;
+}
+.card-ditels p{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.521);
+    line-height: 32px;
+}
+.card-ditels h1{
+    font-size: 24px;
+    font-weight: 600;
+    color: red;
+}
+.card-ditelss{
+    text-align: center;
+}
+.card-ditelss img{
+    margin-bottom: 24px;
+    width: 451px;
+    height: 450px;
+}
+.dds{
+    margin: 0 24px;
+}
+/* subsribe-continer */
+.subsribe-continer{
+    margin: 120px 140px;
+    background-color: rgba(255, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+}
+.subsribe-detiles{
+    text-align: center;
+    padding-bottom: 80px;
+    /* border-radius: 1000px; */
+    margin: 0 221px;
+}
+.subsribe-detiles img{
+    width: 150px;
+    height: 150px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.subsribe-detiles h1{
+    margin-bottom: 21px;
+    font-size: 48px;
+}
+.subsribe-detiles p{
+    margin-bottom: 48px;
+}
+.subsribe-detiles input{
+    padding: 25px 477px 25px 30px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.subsribe-detiles button{
+    padding: 24px 56px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+/* footer section */
+.footer-section{
+    background-color: black;
+    color: white;
+    padding: 0 140px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 140px;
+}
+.footer-continer h1{
+    text-align: left;
+    padding-right: 35px;
+    line-height: 40px;
+}
+.footer-detailes{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 24px;
+}
+.footer-midea {
+    display: flex;
+    margin-left: 334px;
+    margin-right: 335px;
+}
+.footer-midea img{
+    padding: 0 24px;
+}
+.footer h1{
+    padding-bottom: 120px;
+    font-size: 24px;
+}
+/* End of the all code */
